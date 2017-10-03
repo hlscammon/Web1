@@ -5,28 +5,33 @@ h1 {
     line-height: 45px ;
     margin-top: 20px ;
     margin-bottom: 10px ;
+    margin-left: 30px ;
 }
 h2 {
     font-family: Lumin ;
     font-weight: lighter ;
     font-size: 35px ;
+    margin-left: 30px ;
 }
 h3 {
     font-family: Lumin ;
     font-size: 20px ;
     line-height: 20px ;
     margin-top: 10px ;
+    margin-left: 30px ;
 }
 h4 {
     font-family: Lumin Sans ;
     font-size: 18px ;
     margin-top: 20px ;
     margin-bottom: 10px ;
+    margin-left: 30px ;
 }
 p {
     font-family: Lumin Sans ;
     font-size: 16px ;
     line-height: 18px ;
+    margin-left: 30px ;
 }
 h1.Name {
     Font-size: 60px ;
@@ -39,7 +44,11 @@ h3.Description {
     text-align: center ;
     line-height: 10px ;
     margin-top: 30px ;
+    margin-left: 30px ;
     
+}
+img {
+    margin-left: 30px ;
 }
 img.gif {
     display: block ;
@@ -47,17 +56,21 @@ img.gif {
     margin-right: auto ;
     padding-bottom: 50px ;
     padding-top: 20px ;
-
+    background-color: rgb(245,245,245) ;
 }
 ul {
     font-family: Lumin Sans ;
     font-size: 16px ;
     line-height: 25px ;
+    margin-left: 30px ;
+    margin-top: 30px ;
 }
 ol {
     font-family: Lumin Sans ;
     font-size: 16px ;
     line-height: 18px ;
+    margin-left: 30px ;
+    margin-top: 30px ;
 }
 a:link {
     color: darkorange ;
@@ -123,9 +136,18 @@ h6 {
     line-height: 0 ;
     margin-bottom: -5px ;
     margin-top: 30px ;
+    margin-left: 30px ;
 }
 th.Day {
     font-size: 28px ;
     color: darkred ;
     font-weight: 400 ;
+}
+a.email {
+    text-align: center ;
+}
+p.last-sentence {
+    text-align: center ;
+    background-color: cornflowerblue ;
+    background-size: 
 }
