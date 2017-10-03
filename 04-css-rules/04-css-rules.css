@@ -147,6 +147,7 @@ a.email {
 }
 p.last-sentence {
     text-align: center ;
+    font-weight: 300 ;
     padding-top: 40px ;
     color: white ;
 }
@@ -157,4 +158,12 @@ p.last-sentence {
 }
 .flex-rectangle-2 {
     background-color: rgb(245,245,245) ;
+}
+table.recipe-tips {
+    text-align: center ;
+    vertical-align: top ;
+    border-top: 1px solid lightgray;
+}
+.top {
+    vertical-align: top ;
 }
