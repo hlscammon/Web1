@@ -54,9 +54,8 @@ img.gif {
     display: block ;
     margin-left: auto ;
     margin-right: auto ;
-    padding-bottom: 50px ;
+    padding-bottom: 20px ;
     padding-top: 20px ;
-    background-color: rgb(245,245,245) ;
 }
 ul {
     font-family: Lumin Sans ;
@@ -148,6 +147,14 @@ a.email {
 }
 p.last-sentence {
     text-align: center ;
-    background-color: cornflowerblue ;
-    background-size: 
+    padding-top: 40px ;
+    color: white ;
+}
+.flex-rectangle{
+    width: 100%;
+    height: 100px ;
+    background: cornflowerblue ;
+}
+.flex-rectangle-2 {
+    background-color: rgb(245,245,245) ;
 }
