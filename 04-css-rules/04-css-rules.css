@@ -70,5 +70,36 @@ table {
     line-height: 20px ;
     border-collapse: separate ;
     border-spacing: 85px 25px ;
-    
+    text-align: left ; 
 }
+h5 {
+    font-family: Lumin Sans;
+    font-weight: light ;
+    font-size: 20px ;
+    line-height: 10px ;  
+}
+label {
+    font-family: Lumin Sans ;
+    font-size: 16px ;
+    line-height: 30px ; 
+}
+fieldset {
+    padding-left: 30px ;
+    width: 400px ; 
+    background-color: rgb(245,245,245) ;
+    border-style: hidden ;
+    margin-top: 10px ;
+}
+input.button {
+    background-color: darkorange ;
+    font-family: Lumin Sans ;
+    font-size: 16px ;
+    color: white ;
+    height: 35px ;
+    width: 100px ;
+    margin-top: 25px ;
+}
+
+
+
+
