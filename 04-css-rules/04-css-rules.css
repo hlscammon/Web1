@@ -1,12 +1,13 @@
 h1 {
     font-family: Lumin Sans ;
-    font-size: 45px ;
+    font-size: 50px ;
     color: cornflowerblue ;
     line-height: 45px ;
 }
 h2 {
     font-family: Lumin ;
-    font-size: 30px ;
+    font-weight: lighter ;
+    font-size: 35px ;
     line-height: 10px ;
 }
 h3 {
@@ -74,21 +75,24 @@ table {
 }
 h5 {
     font-family: Lumin Sans;
-    font-weight: light ;
-    font-size: 20px ;
-    line-height: 10px ;  
+    font-weight: lighter ;
+    text-align: center ;
+    font-size: 30px ; 
+    line-height: 0px ;
 }
 label {
     font-family: Lumin Sans ;
     font-size: 16px ;
-    line-height: 30px ; 
+    line-height: 35px ;
 }
 fieldset {
     padding-left: 30px ;
+    padding-top: 0 ;
     width: 400px ; 
     background-color: rgb(245,245,245) ;
     border-style: hidden ;
     margin-top: 10px ;
+
 }
 input.button {
     background-color: darkorange ;
@@ -99,7 +103,13 @@ input.button {
     width: 100px ;
     margin-top: 25px ;
 }
-
-
-
-
+hr {
+    width: 950px ;
+    margin-left: 0px ;   
+}
+hr.centerline {
+    display: block ;
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 1080px ;
+}
