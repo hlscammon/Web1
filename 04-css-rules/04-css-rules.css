@@ -54,6 +54,21 @@ ol {
     font-size: 16px ;
     line-height: 18px ;
 }
-link {
+a:link {
+    color: darkorange ;
+    font-family: Lumin ;
+}
+a:focus {
+    color: orange ;
+}
+a:visited {
+    color: darkgoldenrod ;
+}
+table {
+    font-family: Lumin Sans ;
+    font-size: 16px ;
+    line-height: 20px ;
+    border-collapse: separate ;
+    border-spacing: 85px 25px ;
     
 }
