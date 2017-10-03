@@ -12,11 +12,27 @@ h2 {
 h3 {
     font-family: Lumin ;
     font-size: 20px ;
-    line-height: 25px ;
+    line-height: 20px ;
 }
 h4 {
     font-family: Lumin Sans ;
     font-size: 18px ;
+    line-height: 20px ;  
+}
+p {
+    font-family: Lumin Sans ;
+    font-size: 16px ;
+    line-height: 18px ;
+}
+h1.Name {
+    Font-size: 60px ;
     line-height: 20px ;
+    text-align: center ; 
+    padding-top: 75px ;
+    
+}
+h3.Description {
+    text-align: center ;
+    line-height: 10px ;
     
 }
