@@ -1,4 +1,22 @@
 h1 {
-    font-family: Verlag ;
-    font-size: 100px ;
+    font-family: Lumin Sans ;
+    font-size: 45px ;
+    color: cornflowerblue ;
+    line-height: 45px ;
+}
+h2 {
+    font-family: Lumin ;
+    font-size: 30px ;
+    line-height: 10px ;
+}
+h3 {
+    font-family: Lumin ;
+    font-size: 20px ;
+    line-height: 25px ;
+}
+h4 {
+    font-family: Lumin Sans ;
+    font-size: 18px ;
+    line-height: 20px ;
+    
 }
