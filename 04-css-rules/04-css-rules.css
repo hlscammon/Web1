@@ -28,11 +28,32 @@ h1.Name {
     Font-size: 60px ;
     line-height: 20px ;
     text-align: center ; 
-    padding-top: 75px ;
+    padding-top: 50px ;
     
 }
 h3.Description {
     text-align: center ;
     line-height: 10px ;
+    
+}
+img.gif {
+    display: block ;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-bottom: 50px ;
+    padding-top: 20px ;
+
+}
+ul {
+    font-family: Lumin Sans ;
+    font-size: 16px ;
+    line-height: 25px ;
+}
+ol {
+    font-family: Lumin Sans ;
+    font-size: 16px ;
+    line-height: 18px ;
+}
+link {
     
 }
