@@ -155,9 +155,6 @@ hr.centerline {
     margin-right: auto ;
     width: 1080px ;
 }
-hr.flower-line {
-    
-}
 th.Day {
     font-size: 28px ;
     color: darkcyan;
@@ -171,6 +168,12 @@ a.email {
     height: 100px ;
     background-image: url(bd2ddfa1e88d1c8b399b63542703228d.jpg);
     background-size: 500px ;
+}
+.flower-line {
+    width: 100% ;
+    height: 50px ;
+    background-size: 60px ;
+    background-image: url(f8fa97416d201bb99e3ff0f088d0e49e.jpg) ;
 }
 .flex-rectangle-2 {
     background-color: rgb(245,245,245) ;
