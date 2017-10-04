@@ -15,6 +15,7 @@ h1.Name {
 }
 h2 {
     font-family: National ;
+    color: darkolivegreen;
     font-size: 35px ;
     margin-left: 30px ;
     margin-bottom: 10px ;
@@ -36,6 +37,7 @@ h3.Description {
 }
 h4 {
     font-family: Pacifico ;
+    color: darkred;
     font-size: 18px ;
     margin-top: 20px ;
     margin-bottom: 10px ;
@@ -44,7 +46,6 @@ h4 {
 h5 {
     font-family: National;
     font-weight: lighter ;
-    color: darkcyan ;
     font-size: 30px ; 
     line-height: 0px ;
 }
@@ -136,7 +137,7 @@ fieldset {
     margin-left: 30px ;
 }
 input.button {
-    background-color: lightpink;
+    background-color: salmon;
     font-family: Pacifico ;
     font-size: 14px ;
     color: white ;
@@ -173,6 +174,7 @@ a.email {
     height: 50px ;
     background-size: 60px ;
     background-image: url(f8fa97416d201bb99e3ff0f088d0e49e.jpg) ;
+    opacity: .6 ;
 }
 .flex-rectangle-2 {
    background-image: url(bd2ddfa1e88d1c8b399b63542703228d.jpg);
