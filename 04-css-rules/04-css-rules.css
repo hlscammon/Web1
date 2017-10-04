@@ -51,6 +51,8 @@ h3.Description {
 }
 img {
     margin-left: 30px ;
+    margin-top: 25px ;
+    
 }
 img.gif {
     display: block ;
@@ -132,12 +134,13 @@ hr.centerline {
 }
 h6 {
     font-family: Lumin Sans ;
-    font-weight: lighter;
-    font-size: 24px ;
+    font-weight: 200;
+    font-size: 22px ;
     line-height: 0 ;
     margin-bottom: -5px ;
     margin-top: 30px ;
     margin-left: 30px ;
+    color: darkblue ;
 }
 th.Day {
     font-size: 28px ;
@@ -160,6 +163,13 @@ p.last-sentence {
 }
 .flex-rectangle-2 {
     background-color: rgb(245,245,245) ;
+}
+.flex-rectangle-3 {
+    background-color: rgb(245,245,245) ;
+    width: 100% ;
+    height: 300px ;
+    padding-bottom: 15px ;
+    padding-top: 20px ;
 }
 table.recipe-tips {
     text-align: center ;
