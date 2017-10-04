@@ -9,10 +9,9 @@ h1 {
 }
 h1.Name {
     Font-size: 60px ;
-    line-height: 20px ;
+    line-height: 30px ;
     text-align: center ; 
-    padding-top: 50px ;
-    
+    padding-top: 30px ;   
 }
 h2 {
     font-family: National ;
@@ -176,7 +175,7 @@ a.email {
     background-image: url(f8fa97416d201bb99e3ff0f088d0e49e.jpg) ;
 }
 .flex-rectangle-2 {
-    background-color: rgb(245,245,245) ;
+   background-image: url(bd2ddfa1e88d1c8b399b63542703228d.jpg);
 }
 /*.flex-rectangle-3 {
     background-color: rgb(245,245,245) ;
@@ -185,17 +184,17 @@ a.email {
     padding-bottom: 15px ;
     padding-top: 20px ;
 } */
-.flex-rectangle-4 {
+/*.flex-rectangle-4 {
     background-color: rgb(245,245,245) ;
     width: 100% ;
     height: 260px ;
     padding-bottom: 15px ;
     padding-top: 20px ;
-}
+}*/
 table.recipe-tips {
     text-align: center ;
     vertical-align: top ;
-    border-top: 1px solid lightgray;
+/*  border-top: 1px solid lightgray;*/
 }
 .top {
     vertical-align: top ;
