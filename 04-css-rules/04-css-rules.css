@@ -166,7 +166,8 @@ a.email {
 .flex-rectangle{
     width: 100%;
     height: 100px ;
-    background: cornflowerblue ;
+    background-image: url(bd2ddfa1e88d1c8b399b63542703228d.jpg);
+    background-size: 500px ;
 }
 .flex-rectangle-2 {
     background-color: rgb(245,245,245) ;
