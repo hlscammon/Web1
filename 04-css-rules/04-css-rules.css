@@ -1,7 +1,7 @@
 h1 {
     font-family: Lumin Sans ;
     font-size: 50px ;
-    color: cornflowerblue ;
+    color: darkolivegreen;
     line-height: 45px ;
     margin-top: 20px ;
     margin-bottom: 10px ;
@@ -68,7 +68,7 @@ p {
 }
 p.last-sentence {
     text-align: center !important;
-    font-weight: 300 ;
+    font-size: 20px ;
     padding-top: 40px ;
     color: white ;
     margin-left: auto ;
@@ -104,14 +104,14 @@ ol {
     margin-top: 30px ;
 }
 a:link {
-    color: darkorange ;
+    color: darksalmon;
     font-family: Lumin ;
 }
 a:focus {
     color: orange ;
 }
 a:visited {
-    color: darkgoldenrod ;
+    color: lightsalmon ;
 }
 table {
     font-family: Lumin Sans ;
