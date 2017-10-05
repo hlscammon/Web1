@@ -74,7 +74,6 @@ p {
 }
 p.last-sentence {
     text-align: center !important;
-    font-weight: 300 ;
     padding-top: 40px ;
     color: white ;
     margin-left: auto ;
@@ -110,16 +109,17 @@ ol {
     line-height: 18px ;
     margin-left: 30px ;
     margin-top: 30px ;
+    width: 36em ;
 }
 a:link {
-    color: darkorange ;
+    color: darkkhaki;
     font-family: Graphik ;
 }
 a:focus {
-    color: orange ;
+    color: darkgoldenrod;
 }
 a:visited {
-    color: darkgoldenrod ;
+    color: beige ;
 }
 table {
     font-family: Graphik ;
