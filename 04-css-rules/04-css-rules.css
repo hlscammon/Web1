@@ -65,7 +65,7 @@ h6 {
     color: lightgray;
 }
 p {
-    font-family: Lumin Sans ;
+    font-family: Graphik ;
     color: white ;
     font-size: 16px ;
     line-height: 18px ;
@@ -96,14 +96,16 @@ iframe {
     margin-left: 30px ;
 }
 ul {
-    font-family: Lumin Sans ;
+    font-family: Graphik ;
+    color: white ;
     font-size: 16px ;
     line-height: 25px ;
     margin-left: 30px ;
     margin-top: 30px ;
 }
 ol {
-    font-family: Lumin Sans ;
+    font-family: Graphik ;
+    color: white ;
     font-size: 16px ;
     line-height: 18px ;
     margin-left: 30px ;
@@ -111,7 +113,7 @@ ol {
 }
 a:link {
     color: darkorange ;
-    font-family: Lumin ;
+    font-family: Graphik ;
 }
 a:focus {
     color: orange ;
@@ -120,7 +122,8 @@ a:visited {
     color: darkgoldenrod ;
 }
 table {
-    font-family: Lumin Sans ;
+    font-family: Graphik ;
+    color: white ;
     font-size: 16px ;
     line-height: 20px ;
     border-collapse: separate ;
@@ -128,7 +131,7 @@ table {
     text-align: left ; 
 }
 label {
-    font-family: Lumin Sans ;
+    font-family: Graphik ;
     font-size: 16px ;
     line-height: 35px ;
 }
@@ -144,7 +147,7 @@ fieldset {
 }
 input.button {
     background-color: darkorange ;
-    font-family: Lumin Sans ;
+    font-family: Graphik ;
     font-size: 16px ;
     color: white ;
     height: 35px ;
@@ -188,7 +191,7 @@ body {
     padding-top: 20px ;
 }
 .flex-rectangle-4 {
-    background-color: rgb(245,245,245) ;
+    background-color: lightgray;
     width: 100% ;
     height: 260px ;
     padding-bottom: 15px ;
