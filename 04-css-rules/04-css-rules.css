@@ -1,15 +1,16 @@
 h1 {
-    font-family: Lumin Sans ;
+    font-family: Graphik ;
+    font-weight: 100 ;
     font-size: 50px ;
-    color: cornflowerblue ;
+    color: white ;
     line-height: 45px ;
     margin-top: 20px ;
     margin-bottom: 10px ;
     margin-left: 30px ;
 }
 h1.Name {
-    Font-size: 60px ;
-    line-height: 20px ;
+    Font-size: 80px ;
+    line-height: 40px ;
     text-align: center ; 
     padding-top: 50px ;
     
@@ -22,7 +23,8 @@ h2 {
     margin-bottom: 10px ;
 }
 h3 {
-    font-family: Lumin ;
+    font-family: Graphik ;
+    color: white ;
     font-weight: 500 ;
     font-size: 20px ;
     line-height: 20px ;
