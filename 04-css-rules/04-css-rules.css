@@ -11,8 +11,8 @@ h1 {
 h1.Name {
     Font-size: 80px ;
     line-height: 40px ;
-    text-align: center ; 
-    padding-top: 50px ;
+    text-align: center !important; 
+    padding-top: 40px ;
     
 }
 h2 {
@@ -33,7 +33,7 @@ h3 {
     margin-left: 30px ;
 }
 h3.Description {
-    text-align: center ;
+    text-align: center !important;
     color: white ;
     line-height: 10px ;
     margin-top: 30px ;
@@ -112,11 +112,11 @@ ol {
     width: 36em ;
 }
 a:link {
-    color: darkkhaki;
+    color: darkolivegreen;
     font-family: Graphik ;
 }
 a:focus {
-    color: darkgoldenrod;
+    color: darkkhaki;
 }
 a:visited {
     color: beige ;
@@ -196,6 +196,32 @@ body {
     height: 260px ;
     padding-bottom: 15px ;
     padding-top: 20px ;
+}
+.flex-rectangle-5 {
+    background-color: darkolivegreen ; 
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 30px ;
+    padding-bottom: 50px ;
+    width: 660px ;
+    height: 60px ;
+}
+.flex-rectangle-6 {
+    background-color: darkolivegreen ;
+    margin-left: 30px ;
+    width: 300px ;
+    padding-top: 15px ;
+    margin-top: 15px ;
+}
+.flex-rectangle-7 {
+    background-color: darkolivegreen ;
+    margin-left: 30px ;
+    width: 350px ;
+    padding-top: 15px ;
+    margin-top: 15px ;
 }
 table.recipe-tips {
     text-align: center ;
