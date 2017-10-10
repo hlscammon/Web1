@@ -1,0 +1,39 @@
+/* Put your CSS here. */
+h3 {
+    color: darkgrey ;
+    text-transform: uppercase ;
+    font-family: Verdana ;
+    display: none ;
+}
+
+h2 {
+    font-family: Georgia ;
+    font-weight: lighter ;
+    font-size: 16px ;
+}
+
+#author {
+    text-transform: uppercase ;
+}
+
+p {
+    color: limegreen ;
+    font-family: Helvetica ;
+}
+
+p {
+    color: black !important;
+}
+
+/* p.first-child {
+    background-color: red ;
+} */
+#second {
+    color: blue;
+    font-family: Georgia ;
+}
+
+#third {
+    color: deeppink;
+    font-family: Courier ;
+}
