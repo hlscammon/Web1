@@ -49,7 +49,7 @@ aside.highlight {
     color: #111;
     display: block;
     font-size: 1em;
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica", sans-serif;
     height: 100%;
     line-height: 2.3;
     padding: 1px 4px;
@@ -954,7 +954,7 @@ span.cur_day {
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
-        background-color: #fff;
+        background-color: #f2f2f2;
         border: 0;
         display: block;
         margin: 0;
@@ -1473,7 +1473,7 @@ span.cur_day {
 }
 
 .result-age {
-    font-family: "Arial", sans-serif
+    font-family: "Helvetica", sans-serif
 }
 
 .result-date {
@@ -1496,7 +1496,7 @@ span.cur_day {
 }
 
 .result-meta {
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-size: 13px;
     line-height: 18px;
     margin: 2px 0 0 0
@@ -1826,7 +1826,7 @@ span.cur_day {
     border-radius: .25em;
     border: 1px solid #ccc;
     font-size: 12px;
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica", sans-serif;
     padding: 1px 3px
 }
 

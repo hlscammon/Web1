@@ -162,11 +162,11 @@ html, body {
 body {
     background: white;
     color: #222;
-    font-family: "Arial", sans-serif
+    font-family: "Helvetica", sans-serif
 }
 
 button, select, input, fieldset, form, label, legend {
-    font-family: "Arial", sans-serif
+    font-family: "Helvetica", sans-serif
 }
 
 img {
@@ -233,7 +233,7 @@ ul.ul li, ol.ol li {
 
 .highlight, .error {
     background: #fff;
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica", sans-serif;
     padding: 5px
 }
 
@@ -315,7 +315,7 @@ legend {
     color: #777;
     font-size: small;
     font-weight: normal;
-    font-family: "Times New Roman", Times, serif
+    font-family: "Helvetica" ;
 }
 
 .cl_emph {
@@ -478,7 +478,7 @@ section.body {
     border-radius: 3px;
     border: 1px solid #ccc;
     display: block;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Helvetica ;
     font-size: 16px;
     padding: 4px;
     width: 97.5%
@@ -956,7 +956,7 @@ table.four_pane_search {
 .account-header {
     background: #eee;
     border-bottom: 2px #ccc solid;
-    font-family: sans-serif;
+    font-family: Helvetica ;
     margin-bottom: 1em;
     padding: 5px 5px 0
 }
@@ -1360,7 +1360,7 @@ footer .clfooter .rss .l {
     border: 1px solid #ccc;
     color: #333;
     cursor: pointer;
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica", sans-serif;
     font-size: 1em;
     font-weight: bold;
     line-height: 1;
@@ -1891,7 +1891,7 @@ time.timeago {
     color: #551A8B;
     text-align: center;
     font-weight: 500;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Helvetica ;
     font-stretch: expanded;
     width: 100%;
     margin: 0 auto;
@@ -1929,7 +1929,7 @@ time.timeago {
 
 .sites h1 {
     border-bottom: 1px solid #ccc;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Helvetica ;
     font-size: 31px;
     line-height: 31px;
     margin: 0.67em auto
@@ -2234,7 +2234,7 @@ time.timeago {
 }
 
 .account .signup {
-    font-family: "Times New Roman", Times, serif
+    font-family: Helvetica ;
 }
 
 .account .signup h3 {
@@ -2248,7 +2248,7 @@ time.timeago {
 }
 
 .account .accountsettings {
-    font-family: "Times New Roman", Times, serif;
+    font-family: Helvetica ;
     margin-left: 2em
 }
 
@@ -2578,7 +2578,7 @@ td.ss-save-btn button {
 }
 
 .personals_freeform {
-    font-family: "Times New Roman", Times, serif;
+    font-family: Helvetica ;
     background-color: #FFF !important;
     font-style: bold !important
 }
@@ -2666,14 +2666,14 @@ td.ss-save-btn button {
 
 .msgBox.error {
     background: #fff;
-    font-family: "Arial", sans-serif;
+    font-family: Helvetica ;
     padding: 5px;
     border-color: #fbb
 }
 
 .msgBox.message {
     background: #fff;
-    font-family: "Arial", sans-serif;
+    font-family: Helvetica ;
     padding: 5px
 }
 
@@ -2738,7 +2738,7 @@ body.fav .banish-unbanish {
 
 #adminWrapper {
     background: #dfd;
-    font-family: sans-serif;
+    font-family: Helvetica ;
     padding: 4px;
     margin: 4px;
     border: solid 2px green
