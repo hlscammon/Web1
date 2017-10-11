@@ -1078,8 +1078,8 @@ span.cur_day {
     display: inline-block;
     *display: inline;
     *zoom: 1;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #6055e0;
+    border: 1px solid #fff;
     cursor: pointer;
     line-height: 0;
     margin: 0 0 0 5px;
@@ -1512,7 +1512,7 @@ span.cur_day {
 }
 
 .result-meta .result-tags .maptag {
-    color: #080
+    color: #080 ;
 }
 
 .restore-link {

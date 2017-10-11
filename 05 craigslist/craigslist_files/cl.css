@@ -12,7 +12,8 @@
 }
 
 .icon-search {
-    background-position: 0 -144px
+    background-image: url(search.svg) !important;
+    background-size: 30px
 }
 
 .icon-toggle-gear {
@@ -36,12 +37,10 @@
 }
 
 .icon-star {
-    background-position: 0 -96px;
     margin-top: -4px
 }
 
 .no-js .icon-star, .no-localStorage .icon-star {
-    display: none
 }
 
 .icon-star:hover, .icon-star.half {
@@ -162,7 +161,7 @@ html, body {
 body {
     background: white;
     color: #222;
-    font-family: "Helvetica", sans-serif
+    font-family: "Helvetica", sans-serif ;
 }
 
 button, select, input, fieldset, form, label, legend {
@@ -205,7 +204,7 @@ hr {
 
 p {
     clear: none;
-    margin: 1em 0
+    margin: 1em 0 ;
 }
 
 input.dv, textarea.dv {
