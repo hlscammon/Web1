@@ -815,11 +815,14 @@ table.four_pane_search {
 }
 
 .breadcrumbs-container .breadcrumb-arrow {
-    font-size: .95em
+    background-image: url(arrow.svg) ;
+    background-size: 30px ;
+    display: block ;
+    margin: 10px ;
 }
 
 .search .breadcrumbs-container .breadcrumb-arrow {
-    display: none
+/*    display: none*/
 }
 
 .breadcrumbs-container select {
@@ -859,7 +862,8 @@ table.four_pane_search {
 }
 
 .homepage .subarea .breadcrumb-arrow {
-    display: none
+    background-image: url(arrow.svg) ;
+    margin: 10px ;
 }
 
 .fav-label, .discards-label {
