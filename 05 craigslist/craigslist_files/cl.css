@@ -863,8 +863,10 @@ table.four_pane_search {
 
 .homepage .subarea .breadcrumb-arrow {
     background-image: url(arrow.svg) ;
+    background-size: 30px ;
+    display: block ;
     margin: 10px ;
-}
+/*} fix arrow*/
 
 .fav-label, .discards-label {
     display: none
