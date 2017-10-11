@@ -1007,7 +1007,8 @@ span.cur_day {
         overflow-y: scroll;
         position: fixed;
         top: 3em;
-        width: 190px
+        width: 190px ;
+        background-color: #f2f2f2 ;
     }
 
     .search-options {
@@ -1483,14 +1484,15 @@ span.cur_day {
 }
 
 .result-info {
-    font-family: "Times New Roman", Times, serif;
+    font-family: Helvetica ;
     line-height: 20px;
     margin: 0;
     text-overflow: ellipsis
 }
 
 .result-title {
-    font-family: "Times New Roman", Times, serif
+    font-family: Helvetica ;
+    margin: 10px 10px 10px 10px ;
 }
 
 .result-meta {
