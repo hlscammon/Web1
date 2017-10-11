@@ -1414,8 +1414,12 @@ span.cur_day {
 .result-row {
     background-color: transparent;
     overflow: hidden;
-    padding: 0 10px 20px;
-    position: relative
+    padding: 10px 10px 20px;
+    position: relative ;
+    border-bottom: 2px solid #797979 ;
+    display: block ;
+    display: center ;
+    
 }
 
 .result-row.banished {
