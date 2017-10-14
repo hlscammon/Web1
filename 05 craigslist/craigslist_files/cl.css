@@ -816,7 +816,8 @@ table.four_pane_search {
 
 .breadcrumbs-container .breadcrumb-arrow {
     background-image: url(arrow.svg) ;
-    background-size: 30px ;
+    background-size: 20px ;
+    width: 40px ;
     display: block ;
     margin: 10px ;
 }
@@ -824,6 +825,21 @@ table.four_pane_search {
 .search .breadcrumbs-container .breadcrumb-arrow {
 /*    display: none*/
 }
+
+    .search .breadcrumbs-container .breadcrumb-arrow {
+        display: inline
+    }
+
+    .search .breadcrumbs-container li:nth-last-child(2) .breadcrumb-arrow {
+        display: none
+    }
+
+.homepage .subarea .breadcrumb-arrow {
+    background-image: url(arrow.svg) ;
+    background-size: 30px ;
+    display: block ;
+    margin: 10px ;
+    /*} fix arrow*/ }
 
 .breadcrumbs-container select {
     margin: 0
@@ -860,13 +876,6 @@ table.four_pane_search {
 .fav .discards {
     display: none
 }
-
-.homepage .subarea .breadcrumb-arrow {
-    background-image: url(arrow.svg) ;
-    background-size: 30px ;
-    display: block ;
-    margin: 10px ;
-/*} fix arrow*/
 
 .fav-label, .discards-label {
     display: none
@@ -1098,14 +1107,6 @@ table.four_pane_search {
     .breadcrumbs-container .breadcrumbs .crumb {
         float: left;
         height: auto
-    }
-
-    .search .breadcrumbs-container .breadcrumb-arrow {
-        display: inline
-    }
-
-    .search .breadcrumbs-container li:nth-last-child(2) .breadcrumb-arrow {
-        display: none
     }
 
     .userlinks {
