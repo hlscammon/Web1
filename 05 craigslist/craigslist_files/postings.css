@@ -1244,12 +1244,17 @@ footer .clfooter .rss .l {
 
 .posting .dateReplyBar {
     font-size: smaller;
+    background-color: #ededed ;
+    padding: 10px 20px 10px 20px ;
+    background-position: center ;
+    background-size: contain ;
+    margin-top: 10px ;
     position: relative;
     z-index: 1000
 }
 
 .posting .dateReplyBar a {
-    white-space: nowrap
+    white-space: nowrap ;
 }
 
 .posting .dateReplyBar .postinginfo {
@@ -1328,7 +1333,9 @@ footer .clfooter .rss .l {
 }
 
 .posting ul.notices li {
-    font-size: 0.8em
+    font-size: 0.8em;
+    text-transform: uppercase ;
+    
 }
 
 .posting .postinginfos {
