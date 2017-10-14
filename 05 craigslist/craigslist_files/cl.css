@@ -166,7 +166,7 @@ body {
 }
 
 button, select, input, fieldset, form, label, legend {
-    font-family: "Helvetica", sans-serif
+    font-family: "Helvetica", sans-serif ;
 }
 
 img {

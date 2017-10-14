@@ -1011,7 +1011,7 @@ span.cur_day {
         overflow-y: scroll;
         position: fixed;
         top: 3em;
-        width: 190px ;
+        width: 185px ;
         background-color: #f2f2f2 ;
     }
 
@@ -1517,11 +1517,11 @@ span.cur_day {
 }
 
 .result-meta .result-tags {
-    color: orange
+    color: #ffb100 ;
 }
 
 .result-meta .result-tags .maptag {
-    color: #080 ;
+    color: #0ea28b ;
 }
 
 .restore-link {
