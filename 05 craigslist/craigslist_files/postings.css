@@ -1313,8 +1313,12 @@ p.similarposts {
     color: #000000 ;
     font-size: 20px ;
 }
-a.similarposts {
+.otherlistings {
     color: #0ea28b ;
+    font-size: 14px ;
+}
+.otherposts {
+    columns: 150px 3 ;
 }
 
 .prevnext {
