@@ -546,7 +546,8 @@ span.cur_day {
 .searchgroup .searchfieldlabel {
     font-size: 70%;
     text-transform: uppercase;
-    display: block
+    display: block ;
+    color: #999 ;
 }
 
 .searchgroup:after {
@@ -582,9 +583,10 @@ span.cur_day {
 
 .searchgroup label {
     display: -moz-inline-stack;
+    color: #000000 ;
     display: inline-block;
     *display: inline;
-    *zoom: 1
+    *zoom: 1 ;
 }
 
 .cal-container {
