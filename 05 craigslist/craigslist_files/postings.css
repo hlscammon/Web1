@@ -88,8 +88,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-family: Helvetica ;
+    font-weight: bolder ;
+    text-align: left ;
     font: inherit;
-    vertical-align: baseline
+    vertical-align: baseline;
+    color: #48419b ;
 }
 
 ul {
@@ -162,11 +166,11 @@ html, body {
 body {
     background: white;
     color: #222;
-    font-family: "Arial", sans-serif
+    font-family: Helvetica ;
 }
 
 button, select, input, fieldset, form, label, legend {
-    font-family: "Arial", sans-serif
+    font-family: Helvetica ;
 }
 
 img {
@@ -233,7 +237,7 @@ ul.ul li, ol.ol li {
 
 .highlight, .error {
     background: #fff;
-    font-family: "Arial", sans-serif;
+    font-family: Helvetica ;
     padding: 5px
 }
 
@@ -315,7 +319,7 @@ legend {
     color: #777;
     font-size: small;
     font-weight: normal;
-    font-family: "Times New Roman", Times, serif
+    font-family: Helvetica ;
 }
 
 .cl_emph {
@@ -1016,7 +1020,10 @@ footer .clfooter .rss .l {
 }
 
 #postingbody {
-    font-family: "Bitstream Vera Serif", "Times New Roman", serif;
+    font-family: Helvetica ;
+    font-size: 16px ;
+    font-weight:400 ;
+    line-height: 20px ;
     clear: left
 }
 
@@ -1375,7 +1382,9 @@ footer .clfooter .rss .l {
 .posting #postingbody {
     margin: 0 0 1em;
     position: relative;
-    word-wrap: break-word
+    word-wrap: break-word ;
+    color: #000000 ;
+    max-width: 580px ;
 }
 
 .posting #postingbody a {
