@@ -1134,12 +1134,13 @@ footer .clfooter .rss .l {
 }
 
 .posting .postingtitle {
-    font-family: "Bitstream Vera Serif", "Times New Roman", serif;
+    font-family: Helvetica ;
+    text-align: left ;
     font-size: 1.4em;
     font-weight: bold;
     line-height: 1.4em;
-    margin: 10px 0;
-    clear: left
+    margin: 20px 0;
+    clear: left ;
 }
 
 .posting .postingtitle .star {
@@ -1353,7 +1354,10 @@ footer .clfooter .rss .l {
 }
 
 .posting .email-friend {
-    border: 1px solid #eee;
+    background-color: #0ea28b;
+    border: 1px solid #0ea28b;
+    color: #fff ;
+    border-radius: .25em;
     font-size: 13px;
     padding: 5px 8px
 }
@@ -1409,7 +1413,11 @@ footer .clfooter .rss .l {
 
 .posting .reply_button {
     padding-left: 14px;
-    padding-right: 14px
+    padding-right: 14px ;
+    background-color: #0ea28b;
+    border: 1px solid #0ea28b;
+    color: #fff ;
+    border-radius: .25em;
 }
 
 .posting .reply_button .envelope {
@@ -1647,8 +1655,9 @@ footer .clfooter .rss .l {
 }
 
 .posting .attrgroup span {
-    background-color: #fafafa;
-    border: 1px solid #ccc;
+   background-color: #0ea28b;
+    border: 1px solid #0ea28b;
+    color: #fff ;
     -webkit-border-radius: .25em;
     -moz-border-radius: .25em;
     border-radius: .25em;
