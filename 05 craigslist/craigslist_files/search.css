@@ -1503,7 +1503,9 @@ span.cur_day {
     margin: 10px 10px 10px 10px ;
     color: #6055e0 ;
 }
-
+.result-title:hover {
+    color: #362e93 ;
+}
 .result-meta {
     font-family: "Helvetica", sans-serif;
     font-size: 13px;
@@ -1932,7 +1934,6 @@ label.disabled {
     }
 
     .hasPic {
-        background-color: #fff;
         padding-right: .25em
     }
 
