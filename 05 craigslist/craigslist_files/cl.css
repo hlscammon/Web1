@@ -243,8 +243,8 @@ ul.ul li, ol.ol li {
 }
 
 .linklike {
-    color: #00e;
-    cursor: pointer
+    color: #6055e0;
+    cursor: pointer ;
 }
 
 .linklike:hover {
@@ -684,12 +684,16 @@ section.body {
     -webkit-border-radius: 1em;
     -moz-border-radius: 1em;
     border-radius: 1em;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    color: #ffffff ;
+    background-color: #48419b;
+    border: 1px solid #48419b;
     float: left;
     line-height: 1;
-    margin: 0 5px;
-    padding: 0.25em;
+    margin: 15px;
+    padding-right: 1em;
+    padding-left: 1em  ;
+    padding-top: .25em ;
+    padding-bottom: .25em ;
     text-decoration: none
 }
 

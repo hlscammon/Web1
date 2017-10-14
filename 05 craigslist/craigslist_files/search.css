@@ -44,9 +44,9 @@ aside.highlight {
 }
 
 .dropdown a, .dropdown button {
-    border: 0;
-    background-color: transparent;
-    color: #111;
+    background-color: #0ea28b;
+    border: 1px solid #0ea28b;
+    color: #ffffff;
     display: block;
     font-size: 1em;
     font-family: "Helvetica", sans-serif;
@@ -64,7 +64,7 @@ aside.highlight {
 }
 
 .dropdown a:focus, .dropdown button:focus {
-    background: #999
+    background: #096456 ;
 }
 
 .dropdown a {
@@ -73,7 +73,7 @@ aside.highlight {
 }
 
 .dropdown .toggle-arrow {
-    border-top-color: #111;
+    border-top-color: #ffffff ;
     opacity: 0
 }
 
@@ -160,7 +160,8 @@ aside.highlight {
 }
 
 .dropdown-arrows .dropdown-item.sel .toggle-arrow {
-    opacity: 1
+    opacity: 1 ;
+    
 }
 
 .no-js .dropdown-list:hover .dropdown-item {
@@ -836,12 +837,13 @@ span.cur_day {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    background-color: #fff;
-    border: 1px solid #e0e0e0;
+    color: white ;
+    background-color: #0ea28b;
+    border: 1px solid #0ea28b;
     float: right;
     font-size: 1em;
     overflow: hidden;
-    padding: 7px
+    padding: 7px ;
 }
 
 .resetsearch .searchlink.changed_input {
@@ -1109,6 +1111,7 @@ span.cur_day {
     -ms-flex-grow: 1;
     flex-grow: 1;
     font-size: 1.1em;
+    color: rgba(14, 162, 139, 0.53) !important;
     height: 2em;
     line-height: 1.45em;
     min-width: 7em;
@@ -1180,10 +1183,6 @@ span.cur_day {
 
     .resetsearch .reset {
         border: 0
-    }
-
-    .resetsearch .searchlink {
-        background-color: transparent
     }
 
     .querybox {
@@ -1266,13 +1265,14 @@ span.cur_day {
     }
 
     .saveme:visited {
-        color: #00e
+        color: #0ea28b
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .saveme {
         margin: 0 .75em;
+        color: #0ea28b ;
         text-align: center;
         width: 3.5em
     }
@@ -1499,6 +1499,7 @@ span.cur_day {
 
 .result-title {
     font-family: Helvetica ;
+    font-size: 20px ;
     margin: 10px 10px 10px 10px ;
     color: #6055e0 ;
 }
