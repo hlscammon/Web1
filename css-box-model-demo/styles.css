@@ -1,0 +1,27 @@
+h1 {
+/*
+    border-width: 5px ; 
+    border-style: solid ;
+    border-color: #983991 ;
+*/
+    border: 5px dotted #983991 ;
+/*
+    padding-left: 20px ;
+    padding-bottom: 20px ;
+    padding-top: 20px ;
+    padding-right: 20px ;
+*/
+    padding: 30px 30px 30px 30px;
+    
+/*
+    margin-bottom: 140px ;
+    margin-left: 40px ;
+    margin-right: 40px ;
+*/
+    margin: 0px 40px 140px 40px ;
+   
+}
+
+h2 {
+    
+}
