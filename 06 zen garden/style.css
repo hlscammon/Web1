@@ -43,6 +43,9 @@ a:link {
    color: rgba(91, 144, 42, 1);
    line-height: 24px;
 }
+a:visited {
+    color: #0e5a14 ;
+}
 /*
 a:visited { 
 	font-weight: bold; 
@@ -113,6 +116,20 @@ p {
 }
 p:nth-child(even) {
     background-color: rgba(255, 255, 255, 1) ;
+}
+.zen-resources {
+    align-items: center ;
+    list-style-type: none ;
+    color: #ffffff ;
+} 
+ul:last-child a:link {
+  color: #ffffff ;  
+}
+li {
+    list-style-type: none ;
+}
+li:link {
+    color: #ffffff ; 
 }
 /*
 header {
