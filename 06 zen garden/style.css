@@ -18,7 +18,7 @@ body {
    padding: 0px 0 50px 0;
    font-size: 16px;
    min-height: 100%;
-   font-family: ;
+   font-family: 'Open Sans', sans-serif;
    font-weight: 400;
    font-style: normal;
    line-height: 25px;
@@ -29,16 +29,20 @@ p {
 	text-align: justify;
 	}
 h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: #7D775C;
+	font-size: 25px;
+   line-height: 32px;
+   margin: 0px 0px 25px 0px;
+   font-family: "Transat";
+   color: rgba(255, 255, 255, 1);
+   background-color: rgba(30, 87, 108, 1);
 	}
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
-	}
+a:link {
+   font-family: "Open Sans";
+   font-weight: 400;
+   font-style: normal;
+   color: rgba(91, 144, 42, 1);
+   line-height: 24px;
+}
 /*
 a:visited { 
 	font-weight: bold; 
@@ -74,18 +78,41 @@ h1 {
    font-size: 90px;
    line-height: 120px;
    margin: 0px 0px 15px 0px;
-   font-family: "mf-transat-232618";
+   font-family: "Transat";
+    font-weight: lighter;
+    @font-face {
+      font-family: "Transat";
+      src: url(TransatLight.otf)
+    }
    color: rgba(255, 255, 255, 1);
    background-color: rgba(30, 87, 108, 1);
-   width: 520.4375px;
+/*   width: 520.4375px;*/
 }
 h2 {
    font-size: 25px;
    line-height: 32px;
    margin: 0px 0px 25px 0px;
-   font-family: "mf-transat-232619";
+   font-family: "Transat";
+    @font-face {
+      font-family: "Transat";
+      src: url(TransatMedium.otf)
+    }
    color: rgba(255, 255, 255, 1);
    background-color: rgba(30, 87, 108, 1);
+}
+
+p {
+   margin: 0px 0px 25px 0px;
+   text-transform: inherit;
+   font-size: 16px;
+   color: rgb(255, 255, 255);
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 24px;
+}
+p:nth-child(even) {
+    background-color: rgba(255, 255, 255, 1) ;
 }
 /*
 header {
