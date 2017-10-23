@@ -33,6 +33,7 @@ h3 {
    line-height: 32px;
    margin: 0px 0px 25px 0px;
    font-family: "Transat";
+    font-weight: 400 ;
    color: rgba(255, 255, 255, 1);
    background-color: rgba(30, 87, 108, 1);
 	}
@@ -96,6 +97,7 @@ h2 {
    line-height: 32px;
    margin: 0px 0px 25px 0px;
    font-family: "Transat";
+    font-weight: 400 ;
     @font-face {
       font-family: "Transat";
       src: url(TransatMedium.otf)
@@ -113,14 +115,21 @@ p {
    font-weight: 400;
    font-style: normal;
    line-height: 24px;
+    width: 36em ;
+
 }
-p:nth-child(even) {
-    background-color: rgba(255, 255, 255, 1) ;
+#design-selection {
+font-family: "Open Sans";
+   font-weight: 400;
+   font-style: normal;
+   color: rgba(91, 144, 42, 1);
+   line-height: 24px;
 }
-.zen-resources {
+#zen-resources ul {
     align-items: center ;
     list-style-type: none ;
     color: #ffffff ;
+    text-decoration: none ;
 } 
 ul:last-child a:link {
   color: #ffffff ;  
@@ -130,6 +139,45 @@ li {
 }
 li:link {
     color: #ffffff ; 
+}
+.select {
+    color: #000000 ;
+    font-size: 20px ;
+    font-weight: 500 ;
+}
+.archives {
+    font-size: 20px ;
+    font-weight: 500 ;
+}
+.resources {
+    visibility: hidden ;
+}
+.preamble {
+    background-color: #ffffff ;
+}
+#zen-preamble p {
+    color: #000 ;
+}
+#zen-participation p {
+    color: #000 ;
+}
+.participation {
+    background-color: #ffffff ;
+}
+#zen-requirements p {
+    color: #000 ;
+}
+.requirements {
+    background-color: #ffffff ;
+}
+footer {
+    visibility: hidden ;
+}
+#design-selection p {
+    color: #000 ;
+}
+.design-selection {
+    background-color: #ffffff ;
 }
 /*
 header {
