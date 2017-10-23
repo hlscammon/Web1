@@ -125,15 +125,24 @@ font-family: "Open Sans";
    color: rgba(91, 144, 42, 1);
    line-height: 24px;
 }
-#zen-resources ul {
-    align-items: center ;
+#zen-resources a:link {
+    text-align: center ;
+    display: block ;
     list-style-type: none ;
     color: #ffffff ;
     text-decoration: none ;
+    font-size: 15px ;
+    color: #DADADA ;
+    font-family: "Transat"
 } 
+#zen-resources a:visited {
+    color: #DADADA ;
+}
+/*
 ul:last-child a:link {
   color: #ffffff ;  
 }
+*/
 li {
     list-style-type: none ;
 }
@@ -148,6 +157,17 @@ li:link {
 .archives {
     font-size: 20px ;
     font-weight: 500 ;
+}
+#design-selection a:link {
+    font-size: 20px ;
+    line-height: 40px ;
+}
+#design-archives a:link {
+    list-style-type: none ;
+    color: #ffffff ;
+    text-decoration: none ;
+    font-size: 20px ;
+    line-height: 40px ;
 }
 .resources {
     visibility: hidden ;
