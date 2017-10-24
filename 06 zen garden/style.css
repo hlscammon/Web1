@@ -22,7 +22,7 @@ body {
    font-weight: 400;
    font-style: normal;
    line-height: 25px;
-    background-color: rgba(30, 87, 108, 1);
+/*    background-color: rgba(30, 87, 108, 1);*/
 }
 p { 
 	margin-top: 0; 
@@ -34,8 +34,7 @@ h3 {
    margin: 0px 0px 25px 0px;
    font-family: "Transat";
     font-weight: 400 ;
-   color: rgba(255, 255, 255, 1);
-   background-color: rgba(30, 87, 108, 1);
+/*   background-color: rgba(30, 87, 108, 1);*/
 	}
 a:link {
    font-family: "Open Sans";
@@ -89,7 +88,7 @@ h1 {
       src: url(TransatLight.otf)
     }
    color: rgba(255, 255, 255, 1);
-   background-color: rgba(30, 87, 108, 1);
+/*   background-color: rgba(30, 87, 108, 1);*/
 /*   width: 520.4375px;*/
 }
 h2 {
@@ -103,7 +102,7 @@ h2 {
       src: url(TransatMedium.otf)
     }
    color: rgba(255, 255, 255, 1);
-   background-color: rgba(30, 87, 108, 1);
+/*   background-color: rgba(30, 87, 108, 1);*/
 }
 
 p {
@@ -117,6 +116,12 @@ p {
    line-height: 24px;
     width: 36em ;
 
+}
+div {
+    width: 100% ;
+}
+.explanation {
+    background-color: #95AE80 ;
 }
 #design-selection {
 font-family: "Open Sans";
@@ -173,7 +178,6 @@ li:link {
     visibility: hidden ;
 }
 .preamble {
-    background-color: #ffffff ;
 }
 #zen-preamble p {
     color: #000 ;
@@ -182,7 +186,6 @@ li:link {
     color: #000 ;
 }
 .participation {
-    background-color: #ffffff ;
 }
 #zen-requirements p {
     color: #000 ;
@@ -197,7 +200,9 @@ footer {
     color: #000 ;
 }
 .design-selection {
-    background-color: #ffffff ;
+}
+.summary {
+    background-color: rgba(30, 87, 108, 1) ;
 }
 /*
 header {
