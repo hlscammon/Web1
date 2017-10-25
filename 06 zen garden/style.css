@@ -22,6 +22,11 @@ body {
     font-weight: 400;
     font-style: normal;
     line-height: 25px;
+    background-image: url(Header%20image.png) ;
+    background-repeat: no-repeat ;
+    background-color: rgba(30, 87, 108, 1) ;
+    background-size: 1000px 620px ;
+    
     /*    background-color: rgba(30, 87, 108, 1);*/
 }
 abbr {
@@ -181,7 +186,7 @@ li:link {
     visibility: hidden ;
 }
 .preamble {
-    background-color: #ffffff ;
+/*    background-color: #ffffff ;*/
 }
 #zen-preamble p {
     color: #000 ;
@@ -195,8 +200,10 @@ li:link {
 .preamble {
     display: block ;
     padding: 50px ;
+/*
     border-top: 25px solid #C7B4A5 ;
     border-right: 25px solid #C7B4A5 ;
+*/
     right:inherit ;
 
 }
@@ -210,6 +217,12 @@ li:link {
 footer {
     visibility: hidden ;
 }
+.sidebar {
+    background-image: url(footer%20image.png);
+    background-repeat: no-repeat ; 
+    background-size: 930px 550px ;
+    background-color: #C7B4A5 ;
+}
 #design-selection p {
     color: #000 ;
 }
@@ -217,10 +230,10 @@ footer {
     padding-left: 50px ;
 }
 .summary {
-    background-color: rgba(30, 87, 108, 1) ;
+/*    background-color: rgba(30, 87, 108, 1) ;*/
 }
 .intro {
-    background-color: rgba(30, 87, 108, 1) ;
+/*    background-color: rgba(30, 87, 108, 1) ;*/
     padding-left: 50px ;
 }
 .benefits {
@@ -233,7 +246,7 @@ footer {
     padding-bottom: 20px ;
 }
 .design-archives {
-    background-color: #C7B4A5 ;
+/*    background-color: #C7B4A5 ;*/
     color: #FFFFFF ;
     padding-left: 50px ;
 }
