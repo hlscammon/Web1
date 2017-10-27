@@ -39,7 +39,8 @@ p {
 h3 { 
     font-size: 25px;
     line-height: 32px;
-    margin: 0px 0px 25px 0px;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
     font-family: "Transat";
     font-weight: 400 ;
     /*   background-color: rgba(30, 87, 108, 1);*/
@@ -101,8 +102,9 @@ h1 {
 }
 h2 {
     font-size: 25px;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
     line-height: 32px;
-    margin: 0px 0px 25px 0px;
     font-family: "Transat";
     font-weight: 400 ;
     @font-face {
@@ -200,6 +202,8 @@ li:link {
 .preamble {
     display: block ;
     padding: 50px ;
+    margin-left: 400px ;
+    margin-top: -70px ;
 /*
     border-top: 25px solid #C7B4A5 ;
     border-right: 25px solid #C7B4A5 ;
@@ -252,7 +256,10 @@ footer {
 }
 .explanation {
     color: #FFFFFF ;
-    padding-left: 50px ;
+    padding: 50px 50px 50px 100px ;
+    background-color: #95AE80 ;
+}
+    
 }
 /*
 header {
