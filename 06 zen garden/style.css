@@ -26,6 +26,7 @@ body {
     background-repeat: no-repeat ;
     background-color: rgba(30, 87, 108, 1) ;
     background-size: 1000px 620px ;
+    background-position: 0px 80px ;
     
     /*    background-color: rgba(30, 87, 108, 1);*/
 }
@@ -107,6 +108,7 @@ h2 {
     line-height: 32px;
     font-family: "Transat";
     font-weight: 400 ;
+    margin-left: 450px ;
     @font-face {
         font-family: "Transat";
         src: url(TransatMedium.otf)
@@ -187,9 +189,6 @@ li:link {
 .resources {
     visibility: hidden ;
 }
-.preamble {
-/*    background-color: #ffffff ;*/
-}
 #zen-preamble p {
     color: #000 ;
 }
@@ -203,7 +202,6 @@ li:link {
     display: block ;
     padding: 50px ;
     margin-left: 400px ;
-    margin-top: -70px ;
 /*
     border-top: 25px solid #C7B4A5 ;
     border-right: 25px solid #C7B4A5 ;
@@ -235,6 +233,7 @@ footer {
 }
 .summary {
 /*    background-color: rgba(30, 87, 108, 1) ;*/
+    margin-left: 450px ;
 }
 .intro {
 /*    background-color: rgba(30, 87, 108, 1) ;*/
