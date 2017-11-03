@@ -14,6 +14,11 @@ html {
     padding: 0;
 
 }
+.page-wrapper {
+    display: grid ;
+    grid-template-columns: ; 1fr 1fr 1fr 1fr ;
+    grid-gap: 10px ;
+}
 body {
     padding: 0px 0 50px 0;
     font-size: 16px;
@@ -128,9 +133,6 @@ p {
     line-height: 24px;
     width: 36em ;
 
-}
-div {
-    width: 100% ;
 }
 .explanation {
     margin-top: -50px ;
@@ -249,6 +251,8 @@ footer {
 }
 .design-selection {
     padding-left: 50px ;
+    grid-column: 1 / 2 ;
+    /*    i dont think its doing anything*/
 }
 .summary {
 /*    background-color: rgba(30, 87, 108, 1) ;*/
@@ -277,11 +281,14 @@ footer {
 .zen-resources {
     background-color: rgba(30, 87, 108, 1) ;
     padding-bottom: 20px ;
+    grid-column: span 4 ;
 }
 .design-archives {
 /*    background-color: #C7B4A5 ;*/
     color: #FFFFFF ;
     padding-left: 50px ;
+    grid-column: 2 / 4 ;     
+/*    i dont think its doing anything*/
 }
 
     
