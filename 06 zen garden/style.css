@@ -13,9 +13,10 @@ html {
     margin: 0;
     padding: 0;
 }
-# page-wrapper {
+#page-wrapper {
     display: grid ;
-    grid-template-columns: repeat(4, 200px) ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 150px ;
     grid-gap: 20px 20px ;
 
 }
@@ -82,7 +83,6 @@ h2 {
     line-height: 32px;
     font-family: "Transat";
     font-weight: 400 ;
-    margin-left: 450px ;
     @font-face {
         font-family: "Transat";
         src: url(TransatMedium.otf)
@@ -103,6 +103,9 @@ p {
     width: 36em ;
 
 }
+#title {
+    grid-column-end: span 2 ;
+}
 .explanation {
 /*    margin-top: -50px ;*/
     background-color: #95AE80 ;
@@ -115,13 +118,15 @@ p {
     width: 28em ;
 }
 #zen-intro {
-    grid-column-end: span 3 ; 
+    grid-column-end: span 2 ; 
     grid-row-end: span 2 ; 
 }
-.explanation {
+#zen-explanation {
     color: #FFFFFF ;
     padding: 50px 50px 50px 50px ;
     background-color: #95AE80 ;
+    grid-column-end: span 2 ; 
+    grid-row-end: span 2 ;
 }
 #design-selection {
     font-family: "Open Sans";
@@ -139,10 +144,14 @@ p {
     font-size: 15px ;
     color: #DADADA ;
     font-family: "Transat"
-} 
+}
 #zen-resources a:visited {
     color: #DADADA ;
 }
+#zen-resources {
+    grid-column-end: span 2 ;
+}
+
 /*
 ul:last-child a:link {
 color: #ffffff ;  
@@ -199,7 +208,8 @@ li:link {
 
 }
 #zen-preamble {
-    grid-column-start: 3 ;
+    grid-column-end: span 2 ; 
+    grid-row-end: span 2 ;
 }
 #zen-requirements p {
     color: #000 ;
@@ -226,8 +236,11 @@ footer {
     /*    i dont think its doing anything*/
 }
 .summary {
-/*    background-color: rgba(30, 87, 108, 1) ;*/
+/*
+    background-color: rgba(30, 87, 108, 1) ;
     margin-left: 450px ;
+*/
+    grid-column: 2 ;
 }
 #zen-summary p {
     width: 28em ;
