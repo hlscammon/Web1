@@ -12,12 +12,12 @@
 html {
     margin: 0;
     padding: 0;
-
 }
-.page-wrapper {
+# page-wrapper {
     display: grid ;
-    grid-template-columns: ; 1fr 1fr 1fr 1fr ;
-    grid-gap: 10px ;
+    grid-template-columns: repeat(4, 200px) ;
+    grid-gap: 20px 20px ;
+
 }
 body {
     padding: 0px 0 50px 0;
@@ -61,37 +61,6 @@ a:link {
 a:visited {
     color: #0e5a14 ;
 }
-/*
-a:visited { 
-font-weight: bold; 
-text-decoration: none; 
-color: #D4CDDC;
-}
-a:hover, a:focus, a:active { 
-text-decoration: underline; 
-color: #9685BA;
-}
-abbr {
-border-bottom: none;
-}
-*/
-
-
-/* specific divs */
-/*
-.page-wrapper { 
-background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
-padding: 0 175px 0 110px;  
-margin: 0; 
-position: relative;
-}
-
-.intro { 
-min-width: 470px;
-width: 100%;
-}
-*/
-
 h1 {
     font-size: 90px;
     line-height: 120px;
@@ -135,7 +104,7 @@ p {
 
 }
 .explanation {
-    margin-top: -50px ;
+/*    margin-top: -50px ;*/
     background-color: #95AE80 ;
     background-image: url(f86e376f2f7a57d0f4198316b19ffcf4.jpg);
     background-repeat: no-repeat ;
@@ -144,6 +113,10 @@ p {
 }
 #zen-explanation p{
     width: 28em ;
+}
+#zen-intro {
+    grid-column-end: span 3 ; 
+    grid-row-end: span 2 ; 
 }
 .explanation {
     color: #FFFFFF ;
@@ -220,15 +193,13 @@ li:link {
     padding-bottom: 50px ;
 }
 .preamble {
-    display: block ;
     padding: 50px ;
-    margin-left: 400px ;
-/*
-    border-top: 25px solid #C7B4A5 ;
-    border-right: 25px solid #C7B4A5 ;
-*/
+/*    margin-left: 400px ;*/
     right:inherit ;
 
+}
+#zen-preamble {
+    grid-column-start: 3 ;
 }
 #zen-requirements p {
     color: #000 ;
@@ -287,8 +258,7 @@ footer {
 /*    background-color: #C7B4A5 ;*/
     color: #FFFFFF ;
     padding-left: 50px ;
-    grid-column: 2 / 4 ;     
-/*    i dont think its doing anything*/
+/*    grid-column: 2 / 4 ;     */
 }
 
     
