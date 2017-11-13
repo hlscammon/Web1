@@ -16,7 +16,7 @@ html {
 #page-wrapper {
     display: grid ;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 150px ;
+/*    grid-template-rows: auto ;*/
     grid-gap: 20px 20px ;
     
 }
@@ -33,6 +33,7 @@ body {
     background-color: rgba(30, 87, 108, 1) ;
     background-size: 1000px 675px ;
     background-position: 0px 90px ;
+    margin: 0 ;
     
     /*    background-color: rgba(30, 87, 108, 1);*/
 }
@@ -100,15 +101,19 @@ h2 {
 }
 
 #title {
-    grid-column-end: span 2 ;
+    grid-column: span 2 ;
+}
+#zen-supporting {
+    grid-column: span 2 ;
 }
 .explanation {
-/*    margin-top: -50px ;*/
+    margin-top: -50px ;
+    border-top: solid white 30px ;
     background-color: #95AE80 ;
     background-image: url(f86e376f2f7a57d0f4198316b19ffcf4.jpg);
     background-repeat: no-repeat ;
     background-size: 421px 432px ;
-    background-position: 545px 32px ;
+    background-position: 545px 60px ;
 }
 #zen-explanation p{
     width: 28em ;
@@ -118,11 +123,13 @@ h2 {
     padding: 50px 50px 50px 50px ;
     background-color: #95AE80 ;
     grid-column-end: span 2 ; 
-    grid-row-end: span 2 ;
+}
+#white_arrow_1 {
+    margin-left: 180px ;
+    margin-bottom: -50px ;
 }
 #zen-intro {
-    grid-column-end: span 2 ; 
-    grid-row-end: span 2 ; 
+    grid-column-end: span 2 ;  
 }
 .intro {
 /*    background-color: rgba(30, 87, 108, 1) ;*/
@@ -141,12 +148,11 @@ h2 {
 }
 #design-selection p {
     color: #000 ;
+    width: 20em ;
 }
 #design-selection {
     padding-left: 50px ;
-    grid-column-end: span 2 ; 
-    grid-row-end: span 2 ;
-    /*    i dont think its doing anything*/
+    grid-column: span 1 ;
 }
 #zen-resources a:link {
     text-align: center ;
@@ -163,7 +169,6 @@ h2 {
 }
 #zen-resources {
     grid-column-end: span 2 ; 
-    grid-row-end: span 2 ;
 }
 .resources {
     visibility: hidden ;
@@ -171,8 +176,7 @@ h2 {
 #zen-resources {
     background-color: rgba(30, 87, 108, 1) ;
     padding-bottom: 20px ;
-    grid-column-end: span 2 ; 
-    grid-row-end: span 2 ;
+    grid-column-end: span 2 ;
 }
 
 li {
@@ -203,7 +207,6 @@ li:link {
     color: #FFFFFF ;
     padding-left: 50px ;
     grid-column-end: span 2 ; 
-    grid-row-end: span 2 ;
 }
 #zen-participation p {
     color: #000 ;
@@ -211,12 +214,16 @@ li:link {
     
 }
 #zen-participation {
-/*    padding-left: 150px ;*/
+    padding-left: 150px ;
     background-color: #ffffff ;
     padding-top: 50px ;
     padding-bottom: 50px ;
     grid-column-end: span 2 ; 
     grid-row-end: span 2 ;
+}
+#black_arrow_1 {
+    margin-left: 310px ;
+    margin-bottom: -50px ; 
 }
 .preamble {
     padding: 50px ;
@@ -229,17 +236,20 @@ li:link {
     width: 28em ;
 }
 #zen-preamble {
-    grid-column-start: 2 ;
-    grid-row-end: span 4 ;
+    margin-left: 350px ;
 }
 #zen-requirements p {
     color: #000 ;
+    width: 45em ;
 }
 #zen-requirements {
     background-color: #ffffff ;
-    padding-left: 50px ;
+    padding-left: 150px ;
+    padding-top: 50px ;
     grid-column-end: span 2 ; 
-    grid-row-end: span 2 ;
+}
+#black_arrow_2 {
+    margin-left: 310px ;
 }
 footer {
     visibility: hidden ;
@@ -249,33 +259,36 @@ footer {
     background-repeat: no-repeat ; 
     background-size: 930px 550px ;
     background-color: #C7B4A5 ;
+    grid-column: span 2 ;
 }
 
 .summary {
-/*
-    background-color: rgba(30, 87, 108, 1) ;
-    margin-left: 450px ;
-*/
-    grid-column: 2 ;
+    margin-left: 400px ;
+    margin-bottom: 20px ;
 }
 #zen-summary p {
     width: 28em ;
 }
-
 #zen-benefits {
     background-color: rgba(30, 87, 108, 1) ;
     color: #FFFFFF ;
     background-image: url(8dc05637edea05ec6924e52cc1a4705b.jpg);
     background-repeat: no-repeat ;
     background-size: 421px 432px ;
-    padding: 150px 0px 150px 100px ;
-    background-position: 50px 32px ;
+    padding: 150px 0px 125px 100px ;
+    background-position: 50px 60px ;
     grid-column-end: span 2 ; 
-    grid-row-end: span 2 ;
-    
+}
+#zen-benefits-text{
+    margin-left: 445px ;
 }
 #zen-benefits p{
     width: 28em ;
+}
+#white_arrow_2 {
+    margin-left: 600px ;
+    padding-top: 60px ;
+    margin-bottom: -110px ;
 }
 
 /*
