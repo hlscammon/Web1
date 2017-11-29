@@ -3,15 +3,19 @@ nav ul li {
     display: inline-block ;
     font-family: 'Open Sans', sans-serif ;
     padding-right: 40px ;
+    
 }
 nav ul li:last-child {
     padding-right: 0px ;
+}
+nav ul li:first-child {
+    border-bottom: solid 5px #8F9BA9 ;
 }
 nav ul {
     padding-left: 500px;
     float: right ;
     margin-top: 80px ;
-    margin-right: 100 ;
+    margin-right: 100 ; 
 }
 nav {
     grid-column: 1fr 1fr ;
@@ -28,4 +32,15 @@ section {
 #homepage_video1 {
     width: 100% ;
     text-align: center ;
+}
+h1 {
+    font-family: 'Archivo Black', sans-serif ; 
+    color: #97270E ;
+    font-size: 30px ;
+    width: 21em ;
+    text-align: center ;
+}
+p {
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 16px ;
 }
