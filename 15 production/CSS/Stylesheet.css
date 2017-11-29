@@ -1,3 +1,6 @@
+nav ul li:last-child {
+    padding-right: 0px ;
+}
 nav ul li {
     color: #ffffff ;
     display: inline-block ;
@@ -5,12 +8,14 @@ nav ul li {
     padding-right: 40px ;
     
 }
-nav ul li:last-child {
-    padding-right: 0px ;
+nav ul li:hover {
+    background-color: rgba(210, 63, 42, 0.4) ; 
 }
-nav ul li:first-child {
-    border-bottom: solid 5px #8F9BA9 ;
+nav ul li:active {
+    background-color: rgb(210, 63, 42) ; 
 }
+/*Not sure how to do the hover on all of them*/
+
 nav ul {
     padding-left: 500px;
     float: right ;
@@ -21,17 +26,24 @@ nav {
     grid-column: 1fr 1fr ;
     background-color: 161F28 ;
     height: 150px ;
+    background-image: url(../Img/Nav%20line.svg);
+    background-repeat: no-repeat ;
+    background-position: 905px 100px ;
 }
 #logo {
     padding: 20px ;
     margin-left: 100px ;
 }
-section {
-    
-}
 #homepage_video1 {
     width: 100% ;
     text-align: center ;
+    background-color: #000000 ;
+}
+#playbutton {
+    position: absolute ;
+    padding-top: 250px ;
+    text-align: center;
+    
 }
 h1 {
     font-family: 'Archivo Black', sans-serif ; 
