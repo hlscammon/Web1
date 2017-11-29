@@ -1,0 +1,31 @@
+nav ul li {
+    color: #ffffff ;
+    display: inline-block ;
+    font-family: 'Open Sans', sans-serif ;
+    padding-right: 40px ;
+}
+nav ul li:last-child {
+    padding-right: 0px ;
+}
+nav ul {
+    padding-left: 500px;
+    float: right ;
+    margin-top: 80px ;
+    margin-right: 100 ;
+}
+nav {
+    grid-column: 1fr 1fr ;
+    background-color: 161F28 ;
+    height: 150px ;
+}
+#logo {
+    padding: 20px ;
+    margin-left: 100px ;
+}
+section {
+    
+}
+#homepage_video1 {
+    width: 100% ;
+    text-align: center ;
+}
