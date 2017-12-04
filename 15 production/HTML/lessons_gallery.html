@@ -5,46 +5,51 @@
         <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
         <title>Gary Leighton Guitar Lessons</title>
         <style>
-    /* Prevents slides from flashing */
-    #slides {
-      display:none;
-    }
-  </style>
+            /* Prevents slides from flashing */
+            #slides {
+                display:none;
+            }
+        </style>
 
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="jquery.slides.min.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="jquery.slides.min.js"></script>
 
-  <script>
-    $(function(){
-      $("#slides").slidesjs({
-        width: 940,
-        height: 528
-      });
-    });
-  </script>
+        <script>
+            $(function(){
+                $("#slides").slidesjs({
+                    width: 940,
+                    height: 528
+                });
+            });
+        </script>
     </head>
     <body>
         <header>
             <nav>
                 <a href="index.html"><img id="logo" src="../Img/logo.svg"></a>
                 <ul>
-                   <a href="lessons.html">
-                       <li>LESSONS</li>
+                    <a href="lessons.html" class="lessonsnav">
+                        <li>LESSONS</li>
                     </a>
-                    <li>ROCKRIGHT ACADEMY</li>
-                    <li>ABOUT</li>
+                    <a href="rockright_academy.html" class="rockrightnav"> <li>ROCKRIGHT ACADEMY</li> 
+                    </a>
+                    <a href="about.html" class="aboutnav">
+                        <li>ABOUT</li>
+                    </a>
                 </ul>
             </nav>
         </header>
         <section>
-            <h2>LESSONS GALLERY</h2>
+            <div class="body">
+                <h2>LESSONS GALLERY</h2>
+            </div>
             <div id="slides">
-    <img src="../Img/songwriting.jpeg">
-    <img src="../Img/example-slide-1.jpg">
-    <img src="../Img/example-slide-2.jpg">
-    <img src="../Img/example-slide-3.jpg">
-    <img src="../Img/example-slide-4.jpg">
-  </div>
+                <img src="../Img/songwriting.jpeg">
+                <img src="../Img/example-slide-1.jpg">
+                <img src="../Img/example-slide-2.jpg">
+                <img src="../Img/example-slide-3.jpg">
+                <img src="../Img/example-slide-4.jpg">
+            </div>
 
         </section>
         <footer>

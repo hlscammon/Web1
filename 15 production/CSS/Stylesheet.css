@@ -17,8 +17,18 @@ nav ul li:hover {
 nav ul li:active {
     background-color: rgb(210, 63, 42) ; 
 }
-/*Not sure how to do the hover on all of them*/
-
+.lessonsnav {
+    margin-right: 40px ;
+    text-decoration: none ;
+}
+.rockrightnav {
+    margin-left: 0px ;
+    text-decoration: none ;
+}
+.aboutnav {
+    margin-left: 40px ;
+    text-decoration: none ;
+}
 nav ul {
     padding-left: 500px;
     float: right ;
@@ -111,6 +121,7 @@ p {
     font-family: 'Open Sans', sans-serif ;
     font-size: 16px ;
     width: 32em ;
+    line-height: 22px ;
 }
 .calltoactionbar {
     text-align: center ;
@@ -187,6 +198,35 @@ p {
 .gallerybutton2:hover {
     background-color: #6C7682 ;
 }
+.gallerybutton3 {
+    text-decoration: none ;
+    font-size: 18px ;
+    font-weight: 700 ;
+    font-family: 'Open Sans', sans-serif ;
+    color: #ffffff ;
+    background-color: #8F9BA9 ;
+    padding: 24px 30px 24px 143px ;
+    position: absolute ;
+    margin-top: 420px ;
+    margin-left: 915px ;
+}
+.gallerybutton3:hover {
+    background-color: #6C7682 ;
+}
+.link {
+    text-decoration: none ;
+    color: #D23F2A ;
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 16px ;
+    font-weight: bolder;
+    line-height: 30px ;
+}
+.link:hover {
+    text-decoration: underline ;
+}
+#links {
+    margin-bottom: 60px ;
+}
 #plugdark {
     margin-left: 50px ;
     margin-right: 0px ;
@@ -237,6 +277,11 @@ footer p {
     position: absolute ;
     margin-left: 815px ;
     margin-top: 50px ;
+}
+.garyphotos {
+    position: absolute ;
+    margin-left: 765px ;
+    margin-top: 100px ;
 }
 .body {
     margin-left: 100px ;

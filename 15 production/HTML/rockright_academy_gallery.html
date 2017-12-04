@@ -4,11 +4,29 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
         <title>Gary Leighton Guitar Lessons</title>
+        <style>
+            /* Prevents slides from flashing */
+            #slides {
+                display:none;
+            }
+        </style>
+
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="jquery.slides.min.js"></script>
+
+        <script>
+            $(function(){
+                $("#slides").slidesjs({
+                    width: 940,
+                    height: 528
+                });
+            });
+        </script>
     </head>
     <body>
         <header>
             <nav>
-                <img id="logo" src="../Img/logo.svg">
+                <a href="index.html"><img id="logo" src="../Img/logo.svg"></a>
                 <ul>
                     <a href="lessons.html" class="lessonsnav">
                         <li>LESSONS</li>
@@ -22,15 +40,18 @@
             </nav>
         </header>
         <section>
-            <img id="playbutton" src="../Img/playbutton.svg">
-            <video id="homepage_video1" src="../video/The%20Jackson%202%20-%20Californication%20cover%20-%20at%20The%20Brickhouse.mp4" width="1280" height="720"></video>
-            <h1 id="mainheader">Guitar Lessons with Gary Leighton <br> At Ralphs House of Tone in Dover, NH</h1>
-            <p id="mainparagraph">With over 25 years of experience Gary brings knowledge, patience and dedication to the development of music enthusiasts of all ages. In an individual or group setting Gary will be able to help you reach your goals while making it fun. Whether you’re just starting out, looking to strengthen your talent to take it to the next level, or fine tuning for your own enjoyment, you’re in the right place.</p>
+            <div class="body">
+                <h2>ROCKRIGHT ACADEMY GALLERY</h2>
+            </div>
+            <div id="slides">
+                <img src="../Img/songwriting.jpeg">
+                <img src="../Img/example-slide-1.jpg">
+                <img src="../Img/example-slide-2.jpg">
+                <img src="../Img/example-slide-3.jpg">
+                <img src="../Img/example-slide-4.jpg">
+            </div>
+
         </section>
-        <div class="calltoactionbar">
-            <a href="mailto:rayton@comcast.net" class="emailgary">Email Gary</a>
-            <img id="plugbar" src="../Img/Plugs%20bar.svg">
-        </div>
         <footer>
             <img id="footerlogo" src="../Img/footer%20logo.svg">
             <div class="contact">
