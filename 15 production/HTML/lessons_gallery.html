@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link href="../CSS/Stylesheet.css" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+        <title>Gary Leighton Guitar Lessons</title>
+        <style>
+    /* Prevents slides from flashing */
+    #slides {
+      display:none;
+    }
+  </style>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+  <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528
+      });
+    });
+  </script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><img id="logo" src="../Img/logo.svg"></a>
+                <ul>
+                   <a href="lessons.html">
+                       <li>LESSONS</li>
+                    </a>
+                    <li>ROCKRIGHT ACADEMY</li>
+                    <li>ABOUT</li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>LESSONS GALLERY</h2>
+            <div id="slides">
+    <img src="../Img/example-slide-1.jpg">
+    <img src="../Img/example-slide-2.jpg">
+    <img src="../Img/example-slide-3.jpg">
+    <img src="../Img/example-slide-4.jpg">
+  </div>
+
+        </section>
+        <footer>
+            <img id="footerlogo" src="../Img/footer%20logo.svg">
+            <div class="contact">
+                <div class="contact1">
+                    <h5>CONTACT</h5>
+                    <p>Gary Leighton
+                        1(603)000-0000
+                        raytone@comcast.net</p>
+                </div>
+                <div class="contact2">
+                    <h5>LOCATION</h5>
+                    <p>Ralphs House of Tone 
+                        99 Oak St
+                        Dover, NH 03820</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
