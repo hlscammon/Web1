@@ -59,7 +59,12 @@ nav {
     position: absolute;
     padding-top: 275px ;
     padding-left: 650px ;
-    grid-column-start: 2 ; 
+    z-index: 1 ;        
+}
+
+/* FIXME: change the hover color! */
+#playbutton path:hover {
+    fill: #6C7682 ;
 }
 h1 {
     font-family: 'Archivo Black', sans-serif ; 
@@ -77,7 +82,7 @@ h2 {
 }
 h3 {
     font-family: 'Open Sans', sans-serif ;
-    font-size: 25px ;
+    font-size: 28px ;
     font-weight: 3000 ;
 }
 h4{
@@ -226,8 +231,11 @@ p {
 }
 #links {
     margin-bottom: 60px ;
+    margin-left: 100px ;
 }
 #plugdark {
+    overflow: hidden ;
+    resize: both ;
     margin-left: 50px ;
     margin-right: 0px ;
 }
@@ -285,4 +293,137 @@ footer p {
 }
 .body {
     margin-left: 100px ;
+}
+/*slideshow css*/
+#slides {
+    display: none ;
+}
+.container {
+    margin-left: 100px ;
+    margin-right: 100px ;
+}
+.slidesjs-pagination .active {
+    color: #D23F2A;
+}
+/*
+@media (max-width: 767px) {
+body {
+padding-left: 10px;
+padding-right: 10px;
+}
+*/
+/*
+.container {
+width: 100% ;
+}
+*/
+
+.slidesjs-container {
+    margin-bottom: 20px ;    
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: auto ;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .container {
+        width: 724px ;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px ;
+    }
+}
+/*additional css for slideshow*/
+
+#slides .slidesjs-navigation {
+    margin-top:3px;
+}
+
+#slides .slidesjs-previous {
+    margin-right: 5px;
+    float: left;
+}
+
+#slides .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+}
+
+.slidesjs-pagination {
+    margin: 6px 0 0;
+    float: right;
+    list-style: none;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(../Img/pagination2-01.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+    color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+    color: #9e2020
+}
+
+.navbar {
+    overflow: hidden
+}
+/*css for left and right arrows*/
+
+a.slidesjs-next,
+a.slidesjs-previous {
+    background-image: url(../Img/btns-next-prev2-01.png);
+    background-repeat: no-repeat;
+    display:block;
+    width:12px;
+    height:18px;
+    overflow: hidden;
+    text-indent: -9999px;
+    float: left;
+    margin-right:5px;
+}
+a.slidesjs-next {
+    margin-right:10px;
+    background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+    background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+    background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+    background-position: 0 -18px;
 }
