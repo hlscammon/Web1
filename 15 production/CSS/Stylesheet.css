@@ -1,6 +1,22 @@
 body {
     margin: 0px ;
 }
+section {
+    overflow: hidden ;
+}
+header {
+    grid: 1fr 1fr ;
+    grid-row: 1fr 1fr ;
+    overflow: hidden ;
+}
+.indexlogo {
+    grid-column: 1 ;
+}
+.navbar {
+    grid-column: 2 ;
+    grid-row-start: 1 ;
+    margin-top: 30px ;
+}
 nav ul li:last-child {
     margin-right: 0px ;
 }
@@ -30,14 +46,17 @@ nav ul li:active {
     text-decoration: none ;
 }
 nav ul {
-    padding-left: 500px;
-    float: right ;
+    padding-left: 924px;
+/*    float: right ;*/
+/*
     margin-top: 80px ;
     margin-right: 100 ;
+*/
+    margin-top: -100px ;
+    position: absolute ;
 }
 nav {
-    grid-column: 1fr 1fr ;
-    background-color: 161F28 ;
+    background-color: #161F28 ;
     height: 150px ;
     background-image: url(../Img/Nav%20line.svg);
     background-repeat: no-repeat ;
@@ -46,6 +65,7 @@ nav {
 #logo {
     padding: 20px ;
     margin-left: 80px ;
+    grid-column: 1 ;
 }
 #logo:hover {
     opacity: 0.5 ;
@@ -61,8 +81,6 @@ nav {
     padding-left: 650px ;
     z-index: 1 ;        
 }
-
-/* FIXME: change the hover color! */
 #playbutton path:hover {
     fill: #6C7682 ;
 }
@@ -84,6 +102,7 @@ h3 {
     font-family: 'Open Sans', sans-serif ;
     font-size: 28px ;
     font-weight: 3000 ;
+    margin-bottom: 15px ;
 }
 h4{
     font-family: 'Open Sans', sans-serif ;
@@ -121,6 +140,7 @@ h6 {
     width: 100% ;
     margin-top: 20px ;
     margin-bottom: -5px ;
+    background-color: #161F28 ;
 }
 p {
     font-family: 'Open Sans', sans-serif ;
@@ -233,11 +253,18 @@ p {
     margin-bottom: 60px ;
     margin-left: 100px ;
 }
+#links2 {
+    margin-bottom: 60px ;
+}
 #plugdark {
     overflow: hidden ;
     resize: both ;
-    margin-left: 50px ;
+    margin-top: 25px ;
+    margin-left: 0px ;
     margin-right: 0px ;
+    padding-left: 50px ;
+    position: absolute ;
+
 }
 footer {
     background-color: #000 ;
@@ -263,10 +290,14 @@ footer p {
     width: 10em ;  
     margin-top: 5px ;
 }
+.contactbackground {
+    background-color: #000 ;
+}
 .contact {
     float: right ;
     margin-right: 100px ;
     margin-top: 35px ;
+    background-color: #000000 ;
 }
 .contact1 {
     display: inline-block;
